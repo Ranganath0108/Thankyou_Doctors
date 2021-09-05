@@ -5,10 +5,10 @@ body{
     min-height:100%;
 	padding:0px;
 	margin:0px;
-	background: #d8d9d9;
+	background-color: #e0e0e0;
 	display: flex;
 	flex-direction: column;
-	font-family: sans-serif, "Roboto", Arial;
+	font-family: Arial, Helvetica, sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .header1{
 	width:100%;
@@ -40,7 +40,7 @@ li{
     height: auto;
     margin: 2% 2% 2% 2%;
     border-radius: 30px;
-    box-shadow: 0 0 12px #000000;
+    box-shadow: 0 0 40px 8px #000000;
     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(coviddocs2.jpg);
 }
 .text1{
@@ -59,14 +59,14 @@ li{
 }
 .text3{
     font: sans-serif;
-	font-size:20px;
+	font-size: 18px;
 	color: White;
 	text-align: center;
 	padding-top: 12%;
 }
-.thankyou{
+.thankyou1{
 	width: 96%;
-	height: auto;
+	height: 600px;
 	background-color: white;
 	border-radius: 30px;
 	margin: 0% 2% 2% 2%;
@@ -75,7 +75,118 @@ li{
 	color:black;
 	text-align: center;
 }
+.hero1{
+	width: 300px;
+	height: 400px;
+	float: left;
+	margin-left: 8%;
+	border-radius: 150px;
+	position: sticky;
 
+}
+#heronote{
+	text-align: center;
+	font-size: 42px;
+}
+.note1{
+	float: right;
+	width: 600px;
+	height: 600px;
+	text-align: center;
+	margin: 2% 6%;
+	margin-right: 10%;
+	font-size: medium;
+	font-family: sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+.thankyou2{
+	width: 96%;
+	height: 600px;
+	background-color: white;
+	border-radius: 30px;
+	margin: 0% 2% 2% 2%;
+    font: helvetica;
+	font-size: 12px;
+	color:black;
+	text-align: center;
+}
+#heronote2{
+	text-align: center;
+	font-size: 42px;
+}
+.hero2{
+	width: 300px;
+	height: 400px;
+	float: right;
+	margin-right: 8%;
+	margin-top: 30px;
+	border-radius: 150px;
+	position: sticky;
+}
+.stats{
+	float:left;
+	text-align: left;
+	font-size: 40px;
+	margin-left: 9%;
+}
+.disclaimer1{
+    font: sans-serif;
+	font-size: 20px;
+	color:black;
+	text-align: center;
+	margin-top: 41%;
+}
+.thankyou3{
+	width: 96%;
+	height: 600px;
+	background-color: white;
+	border-radius: 30px;
+	margin: 0% 2% 2% 2%;
+    font: helvetica;
+	font-size: 12px;
+	color:black;
+	text-align: center;
+}
+.hero3{
+	width: 300px;
+	height: 400px;
+	float: left;
+	margin-left: 8%;
+	margin-top: 95px;
+	border-radius: 150px;
+	position: sticky;
+}
+.note2{
+	float: right;
+	width: 600px;
+	height: 100px;
+	text-align: center;
+	margin-top: 6%;
+	margin-right: 10%;
+	font-size: medium;
+}
+#ln{
+	float:left;
+	width: 250px;
+	height: auto;
+	margin-left: 8%;
+	margin-top: 8%;
+	text-align: left;
+	font-size: 20px;
+	font-style: italic;
+}
+.note3{
+	float: right;
+	width: 600px;
+	height: auto;
+	text-align: center;
+	margin-left: 8%;
+	margin-right: 8%;
+	font-size: 18px;
+	line-height: 2;
+	font-weight: bold;
+	font-style: italic;
+	font-family: 'Times New Roman', Times, serif;
+}
 .footer{
 	width: 100%;
 	height: 300px;
@@ -88,16 +199,11 @@ li{
 	margin-left: 8%;
 	font-size: 50px;
 }
-.devs {
+.devs{
 	color: grey;
 	margin-left: 16%;
 	margin-top: 4%;
 }
-/* .semi {
-	color: grey;
+.devs a{
+	color:grey;
 }
-.gmail {
-	color: grey;
-	display: flex;
-	flex-direction: column;
-} */
