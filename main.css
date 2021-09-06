@@ -35,13 +35,14 @@ li{
 	color: white;
 	margin:8px 3%;
 }
-.container1{
-    width: auto;
+.container0{
+    width: 96%;
     height: auto;
-    margin: 2% 2% 2% 2%;
+	margin: 2% 2%;
     border-radius: 30px;
     box-shadow: 0 0 40px 8px #000000;
     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(coviddocs2.jpg);
+	background-position: center;
 }
 .text1{
     font: ariel;
@@ -66,7 +67,7 @@ li{
 }
 .thankyou1{
 	width: 96%;
-	height: 600px;
+	height: 650px;
 	background-color: white;
 	border-radius: 30px;
 	margin: 0% 2% 2% 2%;
@@ -79,7 +80,8 @@ li{
 	width: 300px;
 	height: 400px;
 	float: left;
-	margin-left: 8%;
+	margin-top: 3%;
+	margin-left: 4%;
 	border-radius: 150px;
 	position: sticky;
 
@@ -88,22 +90,29 @@ li{
 	text-align: center;
 	font-size: 42px;
 }
-.note1{
+.container1{
+	width: 420px;
+	height: 500px;
+	/* margin-top: 6%; */
+	margin-right: 6%;
 	float: right;
-	width: 600px;
-	height: 600px;
+	position: sticky;
 	text-align: center;
-	margin: 2% 6%;
-	margin-right: 10%;
+}
+.note1{
+	/* float: right;
+	width: 600px;
+	height: 600px; */
+	text-align: center;
 	font-size: medium;
 	font-family: sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial;
 }
 .thankyou2{
 	width: 96%;
-	height: 600px;
+	height: 650px;
 	background-color: white;
 	border-radius: 30px;
-	margin: 0% 2% 2% 2%;
+	margin: 2% 2%;
     font: helvetica;
 	font-size: 12px;
 	color:black;
@@ -113,76 +122,83 @@ li{
 	text-align: center;
 	font-size: 42px;
 }
+.container2{
+	width: 500px;
+	height: 350px;
+	margin-top: 6%;
+	margin-left: 6%;
+	float: left;
+	position: sticky;
+	text-align: center;
+}
 .hero2{
 	width: 300px;
 	height: 400px;
 	float: right;
-	margin-right: 8%;
-	margin-top: 30px;
+	margin-top: 3%;
+	margin-right: 4%;
 	border-radius: 150px;
 	position: sticky;
 }
 .stats{
-	float:left;
 	text-align: left;
-	font-size: 40px;
-	margin-left: 9%;
+	font-size: 36px;
+	font-weight: bold;
 }
 .disclaimer1{
-    font: sans-serif;
-	font-size: 20px;
-	color:black;
+    width: auto;
+	padding-bottom: 0px;
+	margin-top: auto;
+	font: sans-serif;
+	font-size: 18px;
+	font-weight: 200;
+	color:black; 
 	text-align: center;
-	margin-top: 41%;
+	margin-top: 33%;
 }
 .thankyou3{
 	width: 96%;
-	height: 600px;
+	height: 650px;
 	background-color: white;
 	border-radius: 30px;
-	margin: 0% 2% 2% 2%;
+	margin: 2% 2%;
     font: helvetica;
 	font-size: 12px;
 	color:black;
+	text-align: center;
+}
+.container3{
+	width: 400px;
+	height: 600px;
+	margin-top: 6%;
+	margin-right: 6%;
+	float: right;
+	position: sticky;
 	text-align: center;
 }
 .hero3{
 	width: 300px;
 	height: 400px;
 	float: left;
-	margin-left: 8%;
-	margin-top: 95px;
+	margin-left: 4%;
+	margin-top: 8%;
 	border-radius: 150px;
 	position: sticky;
 }
 .note2{
-	float: right;
-	width: 600px;
-	height: 100px;
 	text-align: center;
-	margin-top: 6%;
-	margin-right: 10%;
-	font-size: medium;
+	font-size: 18px;
 }
-#ln{
-	float:left;
-	width: 250px;
-	height: auto;
-	margin-left: 8%;
-	margin-top: 8%;
+.ln{
 	text-align: left;
 	font-size: 20px;
 	font-style: italic;
+	margin-top: 8%;
+	margin-bottom: 8%;
 }
 .note3{
-	float: right;
-	width: 600px;
-	height: auto;
-	text-align: center;
-	margin-left: 8%;
-	margin-right: 8%;
 	font-size: 18px;
-	line-height: 2;
+	line-height: 1.5;
 	font-weight: bold;
 	font-style: italic;
 	font-family: 'Times New Roman', Times, serif;
